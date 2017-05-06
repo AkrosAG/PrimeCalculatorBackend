@@ -1,0 +1,22 @@
+# EMBEDDED SERVER CONFIGURATION
+server:
+  port: 666
+
+# DATASOURCE
+spring:
+  datasource:
+    url: jdbc:h2:file:./db/calc
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+# LOGGING
+logging:
+  file: logs/calc.log
+  pattern:
+    file: %d: %p [%c{8}] - %m%n
+    console: %d: %p [%c{8}] - %m%n
