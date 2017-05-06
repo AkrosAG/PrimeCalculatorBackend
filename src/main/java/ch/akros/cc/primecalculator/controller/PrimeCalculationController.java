@@ -21,6 +21,9 @@ import ch.akros.cc.primecalculator.repo.CalculationRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
+/**
+ * Controller for the REST-Interface.
+ */
 @Api(tags = { "Calculation", })
 @RestController
 @RequestMapping("calc")

@@ -6,6 +6,9 @@ package ch.akros.cc.primecalculator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Main-Class to start the backend application.
+ */
 @SpringBootApplication
 public class PrimeCalculatorBackend {
 

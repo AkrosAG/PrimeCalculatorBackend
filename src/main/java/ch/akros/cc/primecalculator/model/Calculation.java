@@ -10,6 +10,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Model to hold the calculation result.
+ */
 @Entity
 public class Calculation {
 
