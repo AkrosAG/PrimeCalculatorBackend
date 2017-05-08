@@ -4,3 +4,5 @@
 .settings/
 db/
 *.log
+.idea/
+PrimeCalculatorBackend.iml
