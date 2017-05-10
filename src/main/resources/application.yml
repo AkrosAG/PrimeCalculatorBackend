@@ -18,5 +18,5 @@ spring:
 logging:
   file: logs/calc.log
   pattern:
-    file: %d: %p [%c{8}] - %m%n
-    console: %d: %p [%c{8}] - %m%n
+    file: '%d: %p [%c{8}] - %m%n'
+    console: '%d: %p [%c{8}] - %m%n'
