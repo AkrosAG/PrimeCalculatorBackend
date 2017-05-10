@@ -6,3 +6,4 @@ db/
 *.log
 .idea/
 PrimeCalculatorBackend.iml
+classes/
